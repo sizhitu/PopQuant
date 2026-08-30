@@ -1,0 +1,13 @@
+[project]
+name = "popquant"
+version = "0.1.0"
+description = "Hypothesis-driven quant research OS — executable math for prediction markets"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=7.0"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
